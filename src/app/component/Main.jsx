@@ -30,7 +30,7 @@ export default function Main() {
               Mastering the Digital Canvas: HTML, CSS, JavaScript, React,
               Next.js
             </h1>
-            <p className="text-center text-gray-600">
+            <p className="text-center text-gray-800">
               Embark on a journey through the digital realm as I wield HTML,
               CSS, JavaScript, React, and Next.js to craft immersive user
               experiences. With a passion for pixel-perfect design and seamless

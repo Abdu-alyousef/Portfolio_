@@ -12,7 +12,7 @@ export default function Project() {
         className="text-2xl mb-10 font-bold uppercase c-text border-l-[7px] pl-2 border-pink-400">
           See my all Projects
         </h2>
-        <p className=" text-gray-600 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
+        <p className=" text-gray-800 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 pb-10">
           <div className="rounded overflow-hidden shadow-lg mt-5 relative bg-white">
             <Image src="/food.png" alt="food" width={600} height={400} />
