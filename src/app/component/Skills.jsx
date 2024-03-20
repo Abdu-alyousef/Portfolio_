@@ -4,7 +4,7 @@ import Container from "./Container"
 export default function Skills  () {
     return (
         <Container>
-        <div id="skills-section" className="mt-24">
+        <div id="skills-section" className="mt-20">
             <div className="border flex flex-col items-center gap-12 py-10 rounded overflow-hidden shadow-lg bg-white ">
                 <h1 className="font-bold text-2xl uppercase- text-gray-900 border-b-[3px] px-2 border-yellow-700">Skills</h1>
                 <div className="flex flex-col gap-4 px-6">

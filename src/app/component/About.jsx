@@ -107,7 +107,7 @@ export default function About() {
                     Aug 2019 - Mar 2020
                   </time>
                   <p className="text-sm text-gray-400">
-                   H&M | Magdeburg
+                   SuperDry | Magdeburg
                   </p>
                 </div>
               </li>

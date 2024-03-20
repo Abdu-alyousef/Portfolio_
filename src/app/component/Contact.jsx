@@ -4,10 +4,10 @@ import Container from "./Container";
 export default function Contact() {
   return (
     <Container>
-      <div id="contact-section" className="mt-24 mb-24">
+      <div id="contact-section" className="mt-24 mb-10">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-4">
-            <h1 className="font-bold text-2xl text-gray-900 border-l-[7px] pl-2 border-yellow-700">Let&apos;s Connect</h1>
+            <h1 className="font-bold text-2xl mb-10 text-gray-900 border-l-[7px] pl-2 border-yellow-700">Let&apos;s Connect</h1>
             <p className="sm:text-center text-gray-700">
               Thank you for taking the time to learn more about me. If
               you&apos;re interested in collaborating on exciting projects or

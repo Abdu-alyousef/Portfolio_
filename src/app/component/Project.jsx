@@ -7,9 +7,9 @@ import Container from "./Container";
 export default function Project() {
   return (
     <Container>
-      <div className="mt-24">
+      <div className="mt-20">
         <h2 id="project-section"
-        className="text-2xl font-bold mb-2 uppercase text-gray-900 border-l-[7px] pl-2 border-yellow-700">
+        className="text-2xl mb-10 font-bold uppercase text-gray-900 border-l-[7px] pl-2 border-yellow-700">
           See my all Projects
         </h2>
         <p className="text-sm text-gray-700 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
