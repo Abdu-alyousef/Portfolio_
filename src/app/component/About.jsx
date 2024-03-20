@@ -4,37 +4,37 @@ import Container from "./Container";
 export default function About() {
   return (
     <Container>
-      <h1 id="about-section"
-       className="font-bold text-2xl border-l-[7px] pl-2 border-yellow-700 mb-10 uppercase text-gray-900">
+      <h1 
+       className="font-bold text-2xl border-l-[7px] pl-2 border-pink-400 mb-10 mt-20 uppercase c-text">
         ABOUT ME
       </h1>
       <div className="flex flex-col gap-10">
         <div className="flex flex-col justify-center gap-5 items-center">
           {/* Hello, I&apos;m Abdu alyousef */}
-          <p className=" sm:text-center text-gray-700">
+          <p className=" sm:text-center text-gray-600">
             Looking ahead, I&apos;m excited about the prospects of leveraging my
             skills and expertise to tackle new challenges and push the
             boundaries of frontend development, where I can contribute to
             innovative projects that make a meaningful impact on users lives.
           </p>
 
-          <span className="italic text-sm mb-10 text-gray-700">
+          <span className="italic text-sm mb-10 text-gray-500">
             during my free time, I have undertaken various projects to practice
             and acquire new skills, often pursuing them as hobbies.
           </span>
         </div>
         <div>
-          <h1 className="font-bold text-2xl uppercase text-gray-900 border-l-[7px] pl-2 border-yellow-700">
+          <h1 className="font-bold text-2xl uppercase c-text border-l-[7px] pl-2 border-pink-400">
             EXPERIENCE
           </h1>
 
-          <div className="pb-5 mt-14">
+          <div  id="project-section" className="pb-5 mt-14">
             <ol className="items-center sm:flex">
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                  <div className=" flex items-center justify-center w-6 h-6 rounded-full ring-0  bg-red-600 sm:ring-8 ring-gray-900 shrink-0">
+                  <div className=" flex items-center justify-center w-6 h-6 rounded-full ring-0  bg-pink-800 sm:ring-8 ring-gray-900 shrink-0">
                     <svg
-                      className="w-2.5 h-2.5 text-sky-700"
+                      className="w-2.5 h-2.5 text-sky-400"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -46,13 +46,13 @@ export default function About() {
                   <div className="hidden sm:flex w-full  h-0.5 bg-gray-950"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                  <h3 className="text-sm font-semibold text-gray-900">
+                  <h3 className="text-sm font-semibold c-text">
                     Customer service
                   </h3>
-                  <time className="block mb-2 text-sm leading-none text-gray-500">
+                  <time className="block mb-2 text-sm leading-none text-gray-600">
                     Aug 2023 - now
                   </time>
-                  <p className="text-sm text-gray-400">
+                  <p className="text-sm text-gray-500">
                     MediaMarkt | Magdeburg
                   </p>
                 </div>
@@ -61,7 +61,7 @@ export default function About() {
                 <div className="flex items-center">
                   <div className="flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 sm:ring-8 ring-gray-900 shrink-0">
                     <svg
-                      className="w-2.5 h-2.5 text-sky-700"
+                      className="w-2.5 h-2.5 text-sky-400"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -73,13 +73,13 @@ export default function About() {
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                  <h3 className="text-sm font-semibold text-gray-900">
+                  <h3 className="text-sm font-semibold c-text">
                     Receptionist
                   </h3>
-                  <time className="block mb-2 text-sm leading-none text-gray-500">
+                  <time className="block mb-2 text-sm leading-none text-gray-600">
                     Oct 2021 - sep 2022
                   </time>
-                  <p className="text-sm text-gray-400">
+                  <p className="text-sm text-gray-500">
                    Fitone | Magdeburg
                   </p>
                 </div>
@@ -88,7 +88,7 @@ export default function About() {
                 <div className="flex items-center">
                   <div className="flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 sm:ring-8 ring-gray-900 shrink-0">
                     <svg
-                      className="w-2.5 h-2.5  text-sky-700"
+                      className="w-2.5 h-2.5  text-sky-400"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -100,13 +100,13 @@ export default function About() {
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                  <h3 className="text-sm font-semibold text-gray-900">
+                  <h3 className="text-sm font-semibold c-text">
                     Sales Assistant
                   </h3>
-                  <time className="block mb-2 text-sm leading-none text-gray-500">
+                  <time className="block mb-2 text-sm leading-none text-gray-600">
                     Aug 2019 - Mar 2020
                   </time>
-                  <p className="text-sm text-gray-400">
+                  <p className="text-sm text-gray-500">
                    SuperDry | Magdeburg
                   </p>
                 </div>
@@ -115,7 +115,7 @@ export default function About() {
                 <div className="flex items-center">
                   <div className="flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 sm:ring-8 ring-gray-900 shrink-0">
                     <svg
-                      className="w-2.5 h-2.5  text-sky-700"
+                      className="w-2.5 h-2.5  text-sky-400"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -127,13 +127,13 @@ export default function About() {
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                  <h3 className="text-sm font-semibold text-gray-900">
+                  <h3 className="text-sm font-semibold c-text">
                     Sales Advisor
                   </h3>
-                  <time className="block mb-2 text-sm leading-none text-gray-500">
+                  <time className="block mb-2 text-sm leading-none text-gray-600">
                     Jul 2018 - Mai 2019
                   </time>
-                  <p className="text-sm text-gray-400">
+                  <p className="text-sm text-gray-500">
                    H&M | Magdeburg
                   </p>
                 </div>

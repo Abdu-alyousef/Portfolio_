@@ -8,27 +8,27 @@ export default function Project() {
   return (
     <Container>
       <div className="mt-20">
-        <h2 id="project-section"
-        className="text-2xl mb-10 font-bold uppercase text-gray-900 border-l-[7px] pl-2 border-yellow-700">
+        <h2
+        className="text-2xl mb-10 font-bold uppercase c-text border-l-[7px] pl-2 border-pink-400">
           See my all Projects
         </h2>
-        <p className="text-sm text-gray-700 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
+        <p className=" text-gray-600 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 pb-10">
           <div className="rounded overflow-hidden shadow-lg mt-5 relative bg-white">
             <Image src="/food.png" alt="food" width={600} height={400} />
             <div className="px-6 py-2">
-              <div className="font-semibold text-xl mb-2 text-gray-900">FOOD APP</div>
-              <p className="text-gray-700 text-base">Description</p>
+              <div className="font-semibold text-xl mb-2 c-text">FOOD APP</div>
+              <p className="text-gray-600 text-base">Discover a taste of convenience with our demo food app.</p>
             </div>
             <div className="px-6 py-4">
               <Link
                 href="https://next-js-essential.vercel.app/"
                 target="_blank"
-                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded">
+                className="c-bg transition hover:bg-pink-400 text-white font-light py-2 px-4 rounded">
                 See demo
               </Link>
             </div>
-            <div className="absolute bg-gray-200 top-4 left-2 px-4 py-2 rounded-full">
+            <div className="absolute bg-gray-200 top-4 left-2 px-3 py-1 rounded-full">
               <span>
                 NextJs
               </span>
@@ -40,26 +40,26 @@ export default function Project() {
           <div className="rounded overflow-hidden shadow-lg mt-5 relative bg-white">
             <Image src="/dice.png" alt="dice" width={600} height={400} />
             <div className="px-6 py-2">
-              <div className="font-semibold text-xl mb-2 text-gray-900">Dice game</div>
-              <p className="text-gray-700 text-base">Description</p>
+              <div className="font-semibold text-xl mb-2 c-text">Dice game</div>
+              <p className="text-gray-600 text-base">Roll the dice and let the excitement unfold with my demo dice game app.</p>
             </div>
             <div className="px-6 py-4">
               <Link
                 href="https://abdu-alyousef.github.io/dice/"
                 target="_blank"
-                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded"
+                className="c-bg transition hover:bg-pink-400 text-white font-light py-2 px-4 rounded"
               >
                 See demo
               </Link>
             </div>
-            <div className="absolute bg-gray-200 top-4 left-2 px-4 py-2 rounded-full">
+            <div className="absolute bg-gray-200 top-4 left-2 px-3 py-1 rounded-full">
               <span>
                 JavaScript
               </span>
             </div>
           </div>
 
-          <div className="object-cover rounded overflow-hidden shadow-lg mt-5 relative bg-white">
+          <div   className="object-cover rounded overflow-hidden shadow-lg mt-5 relative bg-white">
             <Image
               src="/dream.png"
               alt="dream website"
@@ -67,19 +67,20 @@ export default function Project() {
               height={400}
             />
             <div className="px-6 py-2">
-              <div className="font-semibold text-xl mb-2 text-gray-900">Home design</div>
-              <p className="text-gray-700 text-base">Description</p>
+              <div className="font-semibold text-xl mb-2 c-text">Home design</div>
+              <p className="text-gray-600 text-base">Step into the world of interior design with my demo home design app.</p>
             </div>
             <div className="px-6 py-4">
               <Link
+              id="skills-section"
                 href="https://abdu-alyousef.github.io/dream-home/"
                 target="_blank"
-                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded"
+                className="c-bg transition hover:bg-pink-400 text-white font-light py-2 px-4 rounded"
               >
                 See demo
               </Link>
             </div>
-            <div className="absolute bg-gray-200 top-4 left-2 px-4 py-2 rounded-full">
+            <div className="absolute bg-gray-200 top-4 left-2 px-3 py-1 rounded-full">
               <span>HTML&CSS</span>
             </div>
           </div>

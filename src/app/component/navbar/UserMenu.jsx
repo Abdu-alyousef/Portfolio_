@@ -91,17 +91,17 @@ export default function UserMenu() {
         <motion.div
           variants={topVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-neutral-950 rounded origin-left"
+          className="w-7 h-1 bg-white rounded origin-left"
         ></motion.div>
         <motion.div
           variants={centerVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-neutral-950 rounded"
+          className="w-7 h-1 bg-white rounded"
         ></motion.div>
         <motion.div
           variants={bottomVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-neutral-950 rounded origin-left"
+          className="w-7 h-1 bg-white rounded origin-left"
         ></motion.div>
       </button>
       {open && (
@@ -109,7 +109,7 @@ export default function UserMenu() {
           variants={listVariants}
           initial="closed"
           animate="opened"
-          className="absolute top-0 left-0 w-screen h-screen bg-gray-950 text-white flex flex-col items-center justify-center text-4xl gap-8"
+          className="absolute top-0 left-0 w-screen h-screen c-bg text-white flex flex-col items-center justify-center text-4xl gap-8"
         >
           {links.map((link) => (
             <motion.div variants={listItemVariants} key={link.title}>

@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className="bg-neutral-300 fixed w-full z-20 top-0 start-0 ">
+      <nav className="c-bg fixed w-full z-20 top-0 start-0 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           <button
             onClick={() => scrollToSection("home-section")}
@@ -39,7 +39,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("home-section")}
-                  className="block font-semibold py-2 px-3 text-neutral-950 transition hover:text-yellow-700 md:p-0 "
+                  className="block font-semibold py-2 px-3 text-white transition hover:text-pink-400  md:p-0 "
                   aria-current="page"
                 >
                   Home
@@ -48,7 +48,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("about-section")}
-                  className="block py-2 px-3 font-semibold text-neutral-950 rounded  md:p-0 transition hover:text-yellow-700"
+                  className="block py-2 px-3 font-semibold text-white rounded  md:p-0 transition hover:text-pink-400 "
                 >
                   About
                 </button>
@@ -56,7 +56,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("skills-section")}
-                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700   md:p-0 "
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-pink-400    md:p-0 "
                   aria-current="page"
                 >
                   Skills
@@ -65,7 +65,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("project-section")}
-                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700  md:p-0"
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-pink-400  md:p-0"
                 >
                   Projects
                 </button>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("contact-section")}
-                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700  md:p-0"
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-pink-400   md:p-0"
                 >
                   Contact
                 </button>

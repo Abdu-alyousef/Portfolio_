@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Container from "./Container";
 import { React } from "react";
-
 export default function Main() {
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
@@ -13,6 +12,8 @@ export default function Main() {
       };
   return (
     <Container>
+ 
+
       <div id="home-section" className="pt-20 mb-14">
         <div className="flex flex-col justify-center items-center gap-6 py-4">
           <div className="h-1/2 relative">
@@ -25,11 +26,11 @@ export default function Main() {
             />
           </div>
           <div className="h-1/2 flex flex-col gap-8 items-center justify-center">
-            <h1 className="text-2xl font-bold text-center text-gray-900">
+            <h1 className="text-2xl font-bold text-center c-text">
               Mastering the Digital Canvas: HTML, CSS, JavaScript, React,
               Next.js
             </h1>
-            <p className="text-center text-gray-700">
+            <p className="text-center text-gray-600">
               Embark on a journey through the digital realm as I wield HTML,
               CSS, JavaScript, React, and Next.js to craft immersive user
               experiences. With a passion for pixel-perfect design and seamless
@@ -40,9 +41,9 @@ export default function Main() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center gap-6 mt-10">
-            <button  onClick={() => scrollToSection("contact-section")} className="bg-yellow-700 transition hover:bg-neutral-950 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
-            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-yellow-700 hover:border-yellow-700 text-neutral-950 border-[2px] border-neutral-950 font-bold py-2 px-4 rounded">SKILLS</button>
+        <div id="about-section" className="flex justify-center gap-6 mt-10">
+            <button  onClick={() => scrollToSection("contact-section")} className="c-bg transition hover:bg-pink-400 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
+            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-pink-400 hover:border-pink-400 c-text border-[2px] border-neutral-950 font-bold py-2 px-4 rounded">SKILLS</button>
         </div>
       </div>
 

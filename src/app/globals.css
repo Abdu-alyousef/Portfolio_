@@ -6,4 +6,17 @@ html,
 body,
 :root {
   height: 100%;
+  
+}
+
+.c-text {
+  --tw-text-opacity: 1;
+  color: rgb(237 100 166 / var(--tw-text-opacity));
+}
+.c-bg{
+  background-color: #1a1626;
+}
+.c-text {
+  /* color: #8dcffc; */
+  color: #1a1626;
 }
