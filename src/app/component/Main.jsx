@@ -18,8 +18,8 @@ export default function Main() {
         <div className="flex flex-col justify-center items-center gap-6 py-4">
           <div className="h-1/2 relative">
             <Image
-              src="/hero.png"
-              alt="nnn"
+              src="/hero-1.png"
+              alt="hero"
               width={600}
               height={600}
               className="object-contain"

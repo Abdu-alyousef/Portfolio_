@@ -22,14 +22,14 @@ export default function Contact() {
               <Image src="/email.svg" alt="Logo" width={20} height={20} />
               <p className="font-medium text-white  uppercase text-sm">Email</p>
               </div>
-              <span className="cursor-pointer text-pink-400 text-sm transition hover:text-sky-400 text-decoration-line:none">Abdu.alyousef95@gamil.com</span>
+              <span className="cursor-pointer text-pink-400 text-sm transition hover:text-sky-400">Abdu.alyousef95@gamil.com</span>
             </div>
             <div className="flex items-center justify-center gap-3">
                 <div className="flex items-center gap-2 ring-white ring-2 py-1 px-3 rounded-sm">
               <Image src="/call.svg" alt="Logo" width={20} height={20} />
               <p className="font-medium uppercase text-white  text-sm">PHONE</p>
               </div>
-              <span className="no-underline cursor-pointer text-pink-400 transition hover:text-sky-400  text-sm text-decoration-line:none">004915731073866</span>
+              <span className="no-underline cursor-pointer text-pink-400 transition hover:text-sky-400  text-sm">004915731073866</span>
             </div>
           </div>
         </div>
