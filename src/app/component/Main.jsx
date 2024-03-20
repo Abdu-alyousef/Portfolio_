@@ -41,8 +41,8 @@ export default function Main() {
           </div>
         </div>
         <div className="flex justify-center gap-6 mt-10">
-            <button  onClick={() => scrollToSection("contact-section")} className="bg-gray-900 transition hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
-            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-gray-500 hover:border-gray-500 text-gray-900 border-[2px] border-gray-900 font-bold py-2 px-4 rounded">SKILLS</button>
+            <button  onClick={() => scrollToSection("contact-section")} className="bg-yellow-700 transition hover:bg-neutral-950 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
+            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-yellow-700 hover:border-yellow-700 text-neutral-950 border-[2px] border-neutral-950 font-bold py-2 px-4 rounded">SKILLS</button>
         </div>
       </div>
 

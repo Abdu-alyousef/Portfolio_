@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-neutral-300 fixed w-full z-20 top-0 start-0 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           <button
             onClick={() => scrollToSection("home-section")}
@@ -35,11 +35,11 @@ export default function Navbar() {
             }`}
             id="navbar-sticky"
           >
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
               <li>
                 <button
                   onClick={() => scrollToSection("home-section")}
-                  className="block py-2 px-3 text-white transition hover:text-gray-400 rounded md:bg-transparent  md:p-0 "
+                  className="block font-semibold py-2 px-3 text-neutral-950 transition hover:text-yellow-700 md:p-0 "
                   aria-current="page"
                 >
                   Home
@@ -48,7 +48,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("about-section")}
-                  className="block py-2 px-3 text-white rounded  md:p-0 transition hover:text-gray-400"
+                  className="block py-2 px-3 font-semibold text-neutral-950 rounded  md:p-0 transition hover:text-yellow-700"
                 >
                   About
                 </button>
@@ -56,7 +56,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("skills-section")}
-                  className="block py-2 px-3 text-white transition hover:text-gray-400 rounded md:bg-transparent  md:p-0 "
+                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700   md:p-0 "
                   aria-current="page"
                 >
                   Skills
@@ -65,7 +65,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("project-section")}
-                  className="block py-2 px-3 text-white transition hover:text-gray-400 rounded  md:p-0"
+                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700  md:p-0"
                 >
                   Projects
                 </button>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("contact-section")}
-                  className="block py-2 px-3 text-white transition hover:text-gray-400 rounded  md:p-0"
+                  className="block py-2 px-3 font-semibold text-neutral-950 transition hover:text-yellow-700  md:p-0"
                 >
                   Contact
                 </button>

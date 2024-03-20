@@ -6,7 +6,7 @@ export default function Skills  () {
         <Container>
         <div id="skills-section" className="mt-24">
             <div className="border flex flex-col items-center gap-12 py-10 rounded overflow-hidden shadow-lg bg-white ">
-                <h1 className="font-bold text-2xl uppercase- text-gray-900">Skills</h1>
+                <h1 className="font-bold text-2xl uppercase- text-gray-900 border-b-[3px] px-2 border-yellow-700">Skills</h1>
                 <div className="flex flex-col gap-4 px-6">
                 <p className="font-semibold text-gray-800">My expertise encompasses a wide array of frontend technologies, including:</p>
                 <ul className="list-disc text-gray-700 text-sm">
@@ -18,27 +18,27 @@ export default function Skills  () {
                 </div>
                 <div className="flex flex-wrap justify-center gap-2">
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/javascript.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/javascript.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">JAVASCRIPT</span>
                     </div>
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/html.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/html.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">HTML5</span>
                     </div>
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/css3.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/css3.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">CSS3</span>
                     </div>
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/nextjs.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/nextjs.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">NEXTJS</span>
                     </div>
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/react.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/react.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">REACT</span>
                     </div>
                     <div className="flex items-center gap-2 bg-neutral-50 p-2 rounded">
-                    <Image src="/github.svg" alt="Logo" width={30} height={30} />
+                    <Image src="/github.svg" alt="Logo" width={25} height={25} />
                     <span className="font-semibold text-sm uppercase text-gray-800">GITHUB</span>
                     </div>
                 </div>

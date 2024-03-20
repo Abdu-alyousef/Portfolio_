@@ -9,7 +9,7 @@ export default function Project() {
     <Container>
       <div className="mt-24">
         <h2 id="project-section"
-        className="text-2xl font-bold mb-2 uppercase text-gray-900">
+        className="text-2xl font-bold mb-2 uppercase text-gray-900 border-l-[7px] pl-2 border-yellow-700">
           See my all Projects
         </h2>
         <p className="text-sm text-gray-700 mb-4">For a comprehensive view of all my work, including open-source projects and personal endeavors, head over to my GitHub profile.</p>
@@ -24,8 +24,7 @@ export default function Project() {
               <Link
                 href="https://next-js-essential.vercel.app/"
                 target="_blank"
-                className="bg-gray-900 transition hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-              >
+                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded">
                 See demo
               </Link>
             </div>
@@ -48,7 +47,7 @@ export default function Project() {
               <Link
                 href="https://abdu-alyousef.github.io/dice/"
                 target="_blank"
-                className="bg-gray-900 transition hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded"
               >
                 See demo
               </Link>
@@ -75,7 +74,7 @@ export default function Project() {
               <Link
                 href="https://abdu-alyousef.github.io/dream-home/"
                 target="_blank"
-                className="bg-gray-900 transition hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                className="bg-yellow-700 transition hover:bg-stone-800 text-white font-light py-2 px-4 rounded"
               >
                 See demo
               </Link>
