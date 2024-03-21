@@ -24,13 +24,14 @@ export default function Main() {
               height={600}
               className="object-contain"
             />
+            {/* <span className="absolute top-2 left-1/2 -translate-x-16">FrontEnd</span> */}
           </div>
           <div className="h-1/2 flex flex-col gap-8 items-center justify-center">
-            <h1 className="text-2xl font-bold text-center c-text">
+            <h1 className="text-2xl font-bold text-center text-[#00003f]">
               Mastering the Digital Canvas: HTML, CSS, JavaScript, React,
               Next.js
             </h1>
-            <p className="text-center text-gray-800">
+            <p className="text-center text-slate-800">
               Embark on a journey through the digital realm as I wield HTML,
               CSS, JavaScript, React, and Next.js to craft immersive user
               experiences. With a passion for pixel-perfect design and seamless
@@ -42,8 +43,8 @@ export default function Main() {
           </div>
         </div>
         <div id="about-section" className="flex justify-center gap-6 mt-10">
-            <button  onClick={() => scrollToSection("contact-section")} className="c-bg transition hover:bg-pink-400 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
-            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-pink-400 hover:border-pink-400 c-text border-[2px] border-neutral-950 font-bold py-2 px-4 rounded">SKILLS</button>
+            <button  onClick={() => scrollToSection("contact-section")} className="bg-[#00003f] transition hover:bg-red-500 text-white font-semibold py-2 px-4 rounded">CONTACT</button>
+            <button  onClick={() => scrollToSection("skills-section")}  className="bg-white transition hover:text-red-500 hover:border-red-500 text-[#00003f] border-[2px] border-[#00003f] font-bold py-2 px-4 rounded">SKILLS</button>
         </div>
       </div>
 
