@@ -11,14 +11,18 @@ export default function About() {
       <div className="flex flex-col gap-10">
         <div className="flex flex-col justify-center gap-5 items-center">
           {/* Hello, I&apos;m Abdu alyousef */}
-          <p className=" sm:text-center text-[#00143d]">
-            Looking ahead, I&apos;m excited about the prospects of leveraging my
+          <p className=" text-center md:text-start text-[#00143d]">
+            I&apos;m excited about the prospects of leveraging my
             skills and expertise to tackle new challenges and push the
             boundaries of frontend development, where I can contribute to
             innovative projects that make a meaningful impact on users lives.
+                With a passion for pixel-perfect design and
+                seamless functionality, I bring ideas to life, shaping the
+                digital landscape one line of code at a time. Join me on this
+                exploration of innovation and creativity.
           </p>
 
-          <span className="italic text-sm mb-10 text-[#00143d]">
+          <span className="italic text-center md:text-start text-sm mb-10 text-[#00143d]">
             during my free time, I have undertaken various projects to practice
             and acquire new skills, often pursuing them as hobbies.
           </span>

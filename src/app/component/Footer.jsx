@@ -8,22 +8,22 @@ export default function Footer() {
       <div className="flex flex-col items-center gap-3">
         <div className="flex gap-8">
           <div className="p-2 rounded-md hover:bg-red-500 transition">
-            <Link href="#">
+            <Link href="https://de.linkedin.com/in/abdu7?original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">
               <Image src="/linkedin.svg" alt="linkedin" width={20} height={20} />
             </Link>
           </div>
           <div className="p-2 rounded-md hover:bg-red-500 transition">
-            <Link href="#">
+            <Link href="https://github.com/Abdu-alyousef" target="_blank">
               <Image src="/github.svg" alt="github" width={20} height={20} />
             </Link>
           </div>
           <div className="p-2 rounded-md hover:bg-red-500 transition">
-            <Link href="#">
+            <Link href="https://www.instagram.com/itsboud/" target="_blank">
               <Image src="/insta.svg" alt="insta" width={20} height={20} />
             </Link>
           </div>
           <div className="p-2 rounded-md hover:bg-red-500 transition">
-            <Link href="#">
+            <Link href="https://twitter.com/vieuuue"  target="_blank">
               <Image src="/x.svg" alt="x" width={20} height={20} />
             </Link>
           </div>

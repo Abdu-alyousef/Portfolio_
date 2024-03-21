@@ -12,7 +12,7 @@ export default function Main() {
   };
   return (
     <Container>
-      <div id="home-section" className="pt-40 mb-32">
+      <div id="home-section" className="pt-24 md:pt-48 mb-32">
         <div className="flex flex-col md:flex-row justify-between gap-16">
           <div className=" md:w-1/2 lg:w-1/3 md:order-1 flex items-center justify-center">
             <div className="">
@@ -27,16 +27,15 @@ export default function Main() {
                 <span className="absolute top-20 left-2 text-white px-4">
                   <TypeAnimation
                     sequence={[
-                      "Welcome to my Portfolio!",
+                      "Hello!",
                       1000,
                       "My name is Abdu",
                       1000,
-                      "My name is Abdu a frontend developer",
+                      "I architecting the web with creativity and code.",
                       1000,
-                      "My name is Abdu with a passionate about creating amazing user experiences",
+                      "I breathing life into pixels, pixel by pixel.",
                       1000,
-
-                      "My name is Abdu a expertise in HTML, CSS, and JavaScript",
+                      "I transforming ideas into interactive wonders.",
                       1000,
                     ]}
                     wrapper="span"
@@ -50,18 +49,15 @@ export default function Main() {
           </div>
           <div className="md:w-1/2 lg:w-2/3 flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-10">
-              <h1 className="text-2xl font-bold text-[#00003f] border-l-[7px] pl-2 border-red-500">
-                Mastering the Digital Canvas: HTML, CSS, JavaScript, React,
-                Next.js
+              <h1 className="text-2xl font-bold text-[#00003f] border-l-[7px] pl-2 border-red-500 uppercase">
+                Welcome to my portfolio
               </h1>
               <p className=" text-slate-800 text-center md:text-start">
-                Embark on a journey through the digital realm as I wield HTML,
-                CSS, JavaScript, React, and Next.js to craft immersive user
-                experiences. With a passion for pixel-perfect design and
-                seamless functionality, I bring ideas to life, shaping the
-                digital landscape one line of code at a time. Join me on this
-                exploration of innovation and creativity, where every project is
-                a testament to the artistry of frontend development
+                As a frontend developer, I am passionate about creating
+                captivating digital experiences that seamlessly blend
+                functionality with aesthetics. With a strong foundation in HTML,
+                CSS, and JavaScript, I thrive on turning design concepts into
+                responsive and interactive websites and applications.
               </p>
             </div>
             <div

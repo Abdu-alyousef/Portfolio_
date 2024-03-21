@@ -7,8 +7,8 @@ export default function Contact() {
       <div id="contact-section" className="mt-24 mb-10">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-4">
-            <h1 className="font-bold text-2xl mb-10 c-text border-l-[7px] pl-2 border-red-500">Let&apos;s Connect</h1>
-            <p className="sm:text-center text-slate-800">
+            <h1 className="font-bold text-2xl mb-10 c-text border-l-[7px] pl-2 border-red-500 uppercase">Let&apos;s Connect</h1>
+            <p className="text-center md:text-start text-slate-800">
               Thank you for taking the time to learn more about me. If
               you&apos;re interested in collaborating on exciting projects or
               discussing how we can work together, I&apos;d love to hear from
