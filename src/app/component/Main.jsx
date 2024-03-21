@@ -1,5 +1,4 @@
 "use client";
-import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 import Container from "./Container";
 
@@ -14,40 +13,20 @@ export default function Main() {
     <Container>
       <div id="home-section" className="pt-24 md:pt-48 mb-32">
         <div className="flex flex-col md:flex-row justify-between gap-16">
-          <div className=" md:w-1/2 lg:w-1/3 md:order-1 flex items-center justify-center">
+          <div className="md:w-1/2 md:order-1 flex items-center justify-center">
             <div className="">
               <div className="relative">
                 <Image
-                  src="/pc.svg"
+                  src="/hero.png"
                   alt="hero"
-                  width={400}
-                  height={400}
+                  width={600}
+                  height={600}
                   className="object-contain"
                 />
-                <span className="absolute top-20 left-2 text-white px-4">
-                  <TypeAnimation
-                    sequence={[
-                      "Hello!",
-                      1000,
-                      "My name is Abdu a Frontend developer",
-                      1000,
-                      "I architecting the web with creativity and code.",
-                      1000,
-                      "I breathing life into pixels, pixel by pixel.",
-                      1000,
-                      "I transforming ideas into interactive wonders.",
-                      1000,
-                    ]}
-                    wrapper="span"
-                    speed={40}
-                    style={{ display: "inline-block", fontSize: ".9rem" }}
-                    repeat={Infinity}
-                  />
-                </span>
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 lg:w-2/3 flex flex-col justify-center gap-10">
+          <div className="md:w-1/2 flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-10">
               <h1 className="text-2xl font-bold text-[#00003f] border-l-[7px] pl-2 border-red-500 uppercase">
                 Welcome to my portfolio
