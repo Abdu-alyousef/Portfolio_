@@ -1,15 +1,12 @@
 "use client";
 import { useState } from "react";
-import Logo from "./Logo";
 import Container from "../Container";
 import UserMenu from "./UserMenu";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setIsMenuOpen(!isMenuOpen);
-  // };
+ 
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -26,7 +23,9 @@ export default function Navbar() {
             onClick={() => scrollToSection("home-section")}
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Logo />
+            <div className="text-sm bg-gradient-to-b from-[#000018] to-[#00003f] p-1 border-[2px] border-white font-semibold rounded-md flex items-center justify-center">
+              <span className="text-white mr-1">Abdu</span>
+            </div>
           </button>
           <UserMenu />
           <div

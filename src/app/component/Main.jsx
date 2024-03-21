@@ -29,7 +29,7 @@ export default function Main() {
                     sequence={[
                       "Hello!",
                       1000,
-                      "My name is Abdu",
+                      "My name is Abdu a Frontend developer",
                       1000,
                       "I architecting the web with creativity and code.",
                       1000,
