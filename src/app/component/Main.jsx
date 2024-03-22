@@ -32,7 +32,7 @@ export default function Main() {
                 Welcome to my portfolio
               </h1>
               <p className=" text-slate-800 text-center md:text-start">
-                As a frontend developer, I am passionate about creating
+                My name is <strong className="text-[#00003f] font-semibold">Abdu alyousef</strong> a frontend developer, I am passionate about creating
                 captivating digital experiences that seamlessly blend
                 functionality with aesthetics. With a strong foundation in HTML,
                 CSS, and JavaScript, I thrive on turning design concepts into
