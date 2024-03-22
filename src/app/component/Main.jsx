@@ -12,7 +12,7 @@ export default function Main() {
   return (
     <Container>
       <div id="home-section" className="pt-24 md:pt-48 mb-32">
-        <div className="flex flex-col md:flex-row justify-between gap-16">
+        <div className="flex flex-col md:flex-row justify-between gap-5">
           <div className="md:w-1/2 md:order-1 flex items-center justify-center">
             <div className="">
               <div className="relative">
@@ -28,11 +28,11 @@ export default function Main() {
           </div>
           <div className="md:w-1/2 flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-10">
-              <h1 className="text-2xl font-bold text-[#00003f] border-l-[7px] pl-2 border-red-500 uppercase">
+              <h1 className="text-2xl text-center md:text-start font-bold text-[#011638] md:border-l-[7px] md:pl-2 md:border-[#D499B9] uppercase">
                 Welcome to my portfolio
               </h1>
               <p className=" text-slate-800 text-center md:text-start">
-                My name is <strong className="text-[#00003f] font-semibold">Abdu alyousef</strong> a frontend developer, I am passionate about creating
+                My name is <strong className="text-[#011638] font-semibold">Abdu alyousef</strong> a frontend developer, I am passionate about creating
                 captivating digital experiences that seamlessly blend
                 functionality with aesthetics. With a strong foundation in HTML,
                 CSS, and JavaScript, I thrive on turning design concepts into
@@ -45,13 +45,13 @@ export default function Main() {
             >
               <button
                 onClick={() => scrollToSection("contact-section")}
-                className="bg-[#00003f] border-[2px] border-[#00003f] hover:border-red-500 transition hover:bg-red-500 text-white font-semibold py-2 px-4 rounded"
+                className="bg-[#9055A2] border-[2px] border-[#9055A2] hover:border-[#D499B9] transition hover:bg-[#D499B9] text-white font-semibold py-2 px-4 rounded"
               >
-                CONTACT
+                CONTACT 
               </button>
               <button
                 onClick={() => scrollToSection("skills-section")}
-                className="bg-white transition hover:text-red-500 hover:border-red-500 text-[#00003f] border-[2px] border-[#00003f] font-bold py-2 px-4 rounded"
+                className="bg-white transition hover:text-[#D499B9] hover:border-[#D499B9] text-[#2E294E] border-[2px] border-[#2E294E] font-bold py-2 px-4 rounded"
               >
                 SKILLS
               </button>

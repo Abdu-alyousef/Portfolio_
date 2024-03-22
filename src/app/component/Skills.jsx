@@ -5,8 +5,8 @@ export default function Skills  () {
     return (
         <Container>
         <div  className="mt-10">
-            <div className="border flex flex-col items-center gap-12 py-10 rounded overflow-hidden shadow-lg bg-gradient-to-b from-[#000018] to-[#00003f]">
-                <h1 className="font-bold text-2xl uppercase- text-white border-l-[7px] pl-2 border-red-500">Skills</h1>
+            <div className="border flex flex-col items-center gap-12 py-10 rounded overflow-hidden shadow-lg bg-gradient-to-r from-[#2E294E] to-[#9055A2]">
+                <h1 className="font-bold text-2xl uppercase- text-white border-l-[7px] pl-2 border-[#D499B9]">Skills</h1>
                 <div className="flex flex-col gap-4 px-6">
                 <p className="font-semibold text-white">My expertise encompasses a wide array of frontend technologies, including:</p>
                 <ul className="list-disc text-gray-50 text-sm pl-5">

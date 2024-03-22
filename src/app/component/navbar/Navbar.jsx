@@ -17,13 +17,13 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className=" bg-gradient-to-b from-[#000018] to-[#00003f] opacity-90 fixed w-full z-20 top-0 start-0">
+      <nav className=" bg-gradient-to-l from-[#2E294E] to-[#9055A2] opacity-90 fixed w-full z-20 top-0 start-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           <button
             onClick={() => scrollToSection("home-section")}
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <div className="text-sm bg-gradient-to-b from-[#000018] to-[#00003f] p-1 border-[2px] border-white font-semibold rounded-md flex items-center justify-center">
+            <div className="text-sm bg-gradient-to-b from-[#2E294E] to-[#9055A2] p-1 border-[2px] border-white font-semibold rounded-md flex items-center justify-center">
               <span className="text-white mr-1">Abdu</span>
             </div>
           </button>
@@ -38,7 +38,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("home-section")}
-                  className="block font-semibold py-2 px-3 text-white transition hover:text-red-500  md:p-0 "
+                  className="block font-semibold py-2 px-3 text-white transition hover:text-[#D499B9]  md:p-0 "
                   aria-current="page"
                 >
                   Home
@@ -47,32 +47,32 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => scrollToSection("about-section")}
-                  className="block py-2 px-3 font-semibold text-white rounded  md:p-0 transition hover:text-red-500 "
+                  className="block py-2 px-3 font-semibold text-white rounded  md:p-0 transition hover:text-[#D499B9] "
                 >
                   About
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("skills-section")}
-                  className="block py-2 px-3 font-semibold text-white transition hover:text-red-500    md:p-0 "
-                  aria-current="page"
-                >
-                  Skills
-                </button>
-              </li>
-              <li>
-                <button
                   onClick={() => scrollToSection("project-section")}
-                  className="block py-2 px-3 font-semibold text-white transition hover:text-red-500  md:p-0"
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-[#D499B9]    md:p-0 "
+                  aria-current="page"
                 >
                   Projects
                 </button>
               </li>
               <li>
                 <button
+                  onClick={() => scrollToSection("skills-section")}
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-[#D499B9]  md:p-0"
+                >
+                  Skills
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => scrollToSection("contact-section")}
-                  className="block py-2 px-3 font-semibold text-white transition hover:text-red-500   md:p-0"
+                  className="block py-2 px-3 font-semibold text-white transition hover:text-[#D499B9]   md:p-0"
                 >
                   Contact
                 </button>

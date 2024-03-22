@@ -109,7 +109,7 @@ export default function UserMenu() {
           variants={listVariants}
           initial="closed"
           animate="opened"
-          className="absolute top-0 left-0 w-screen h-screen  bg-gradient-to-b from-[#000018] to-[#00003f] text-white flex flex-col items-center justify-center text-4xl gap-8"
+          className="absolute top-0 left-0 w-screen h-screen  bg-gradient-to-l from-[#2E294E] to-[#9055A2] text-white flex flex-col items-center justify-center text-4xl gap-8"
         >
           {links.map((link) => (
             <motion.div variants={listItemVariants} key={link.title}>
