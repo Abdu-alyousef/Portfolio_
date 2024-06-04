@@ -28,13 +28,11 @@ export default function Main() {
           </div>
           <div className="md:w-1/2 flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-10">
-              <h1 className="text-2xl text-center md:text-start font-bold text-[#011638] md:border-l-[7px] md:pl-2 md:border-[#D499B9] uppercase">
+              <h1 className="text-2xl text-center md:text-start font-bold text-gray-800 opacity-90 md:border-l-[7px] md:pl-2 md:border-gray-800 uppercase">
                 Welcome to my portfolio
               </h1>
-              <p className=" text-slate-800 text-center md:text-start">
-                My name is <strong className="text-[#011638] font-semibold">Abdu alyousef</strong> a frontend developer, I am passionate about creating
-                captivating digital experiences that seamlessly blend
-                functionality with aesthetics. With a strong foundation in HTML,
+              <p className=" text-gray-700 text-center md:text-start">
+                My name is <strong className="text-gray-800 opacity-90 font-semibold">Abdu alyousef</strong> a frontend developer. With a strong foundation in HTML,
                 CSS, and JavaScript, I thrive on turning design concepts into
                 responsive and interactive websites and applications.
               </p>
@@ -45,13 +43,13 @@ export default function Main() {
             >
               <button
                 onClick={() => scrollToSection("contact-section")}
-                className="bg-[#9055A2] border-[2px] border-[#9055A2] hover:border-[#D499B9] transition hover:bg-[#D499B9] text-white font-semibold py-2 px-4 rounded"
+                className="bg-gray-900 border-[2px] border-gray-900 hover:border-gray-700 transition hover:bg-gray-700 text-gray-50 font-semibold py-2 px-4 rounded"
               >
                 CONTACT 
               </button>
               <button
                 onClick={() => scrollToSection("skills-section")}
-                className="bg-white transition hover:text-[#D499B9] hover:border-[#D499B9] text-[#2E294E] border-[2px] border-[#2E294E] font-bold py-2 px-4 rounded"
+                className="transition hover:text-gray-700 hover:border-gray-700 text-gray-900 border-[2px] border-gray-900 font-bold py-2 px-4 rounded"
               >
                 SKILLS
               </button>

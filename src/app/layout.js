@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <link rel="logo" href="/logo.png" />
       </Head>
-      <body className={`${inter.className} bg-gray-50`}>
+      <body className={`${inter.className} bg-gray-100`}>
         <Navbar />
         {children}
       </body>

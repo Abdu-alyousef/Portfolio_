@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -31,7 +31,7 @@ export default function UserMenu() {
     },
     opened: {
       rotate: 45,
-      backgroundColor: "rgb(255,255,255)",
+      backgroundColor: "#e5e7eb", // Change the color when opened
     },
   };
 
@@ -50,7 +50,7 @@ export default function UserMenu() {
     },
     opened: {
       rotate: -45,
-      backgroundColor: "rgb(255,255,255)",
+      backgroundColor: "#e5e7eb", // Change the color when opened
     },
   };
 
@@ -91,17 +91,17 @@ export default function UserMenu() {
         <motion.div
           variants={topVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-white rounded origin-left"
+          className="w-7 h-1 bg-gray-700 rounded origin-left" // Change color here
         ></motion.div>
         <motion.div
           variants={centerVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-white rounded"
+          className="w-7 h-1 bg-gray-700 rounded" // Change color here
         ></motion.div>
         <motion.div
           variants={bottomVariants}
           animate={open ? "opened" : "closed"}
-          className="w-7 h-1 bg-white rounded origin-left"
+          className="w-7 h-1 bg-gray-700 rounded origin-left" // Change color here
         ></motion.div>
       </button>
       {open && (
@@ -109,11 +109,14 @@ export default function UserMenu() {
           variants={listVariants}
           initial="closed"
           animate="opened"
-          className="absolute top-0 left-0 w-screen h-screen  bg-gradient-to-l from-[#2E294E] to-[#9055A2] text-white flex flex-col items-center justify-center text-4xl gap-8"
+          className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center text-4xl gap-8"
         >
           {links.map((link) => (
             <motion.div variants={listItemVariants} key={link.title}>
-              <button onClick={() => handleLinkClick(link.section)}>
+              <button
+                onClick={() => handleLinkClick(link.section)}
+                className="text-gray-200 hover:text-gray-400" // Change color here
+              >
                 {link.title}
               </button>
             </motion.div>
