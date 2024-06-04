@@ -22,7 +22,7 @@ export default function Contact() {
               <Image src="/email.svg" alt="Logo" width={20} height={20} />
               <p className="font-medium text-gray-800  uppercase text-sm">Email</p>
               </div>
-              <span className="no-underline  cursor-pointer text-gray-700 text-sm transition hover:no-underline hover:text-gray-500">Abdu.alyousef95@gamil.com</span>
+              <span className="no-underline  cursor-pointer text-gray-700 text-sm transition hover:no-underline hover:text-gray-500">Abdu.alyousef95@gmail.com</span>
             </div>
             <div className="flex items-center justify-center gap-3">
                 <div className="flex items-center gap-2 ring-gray-800 ring-2 py-1 px-3 rounded-sm">
